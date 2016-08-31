@@ -43,7 +43,6 @@ class GarageDaemon(Daemon):
         self._client_id = config['mqtt_client_id'][0]
         self._host = config['mqtt_host'][0]
         self._port = config['mqtt_port'][0]
-        self._timeout = config['mqtt_timeout'][0]
         self._proto = config['mqtt_protocol'][0]
         self._state_topic = config['state_topic'][0]
         self._cmd_topic = config['command_topic'][0]

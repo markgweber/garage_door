@@ -1,15 +1,14 @@
 # Garage Door
 
-This is intended to be run on a Raspberry Pi 2/3.  I haven't tested it on anything earlier.  
+This is intended to be run on a Raspberry Pi 2/3.  I haven't tested it on anything earlier than a RPi2.  I run this on NOOBS.
 
-## Overview
+## Prerequisites for Raspberry Pi
 
 1. (optional, for some) Install Vim.
 1. (optional) Install MQTT Clients. (Used for testing/validation)
 1. Install RPi.GPIO
 1. Install Paho, Python MQTT client libraries.
 
-## Steps
 These steps are executed on the Raspberry Pi.  If you prefer to take it step-by-step execute each line successively.  You may have a better chance at troubleshooting anything that goes wrong if you do it this way.
 ~~~~
 $ sudo apt-get install vim
